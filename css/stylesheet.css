@@ -1,0 +1,145 @@
+.container {
+    width:1080px;
+    margin: auto; /*centering the page*/
+
+}
+
+.two_col {
+    width:520px;
+    padding: 10px;
+    float:left;
+    
+}
+.captions {
+    caption-side: bottom;
+}
+
+.three_col{
+    width:340px;
+    margin-left:20px;
+    float: left;}
+
+.title{    
+    width:600px;
+    margin-top: 50px;
+    float: right;
+}
+
+.navigationbar {
+    width: 1080px;
+    position: fixed;
+    background-color: tan;
+    top:0;
+}
+.navigationbar ul {
+    text-align: center;
+}
+.navigationbar ul li{
+    list-style:none;
+    display:inline;
+    padding:30px;
+}
+.navigationbar ul li a {
+    text-decoration:none;
+    font-size:24px;
+    text-transform:capitalize;
+    color: black;    
+}
+.navigationbar ul li a.hover {
+    background-color: sandybrown;
+    color:saddlebrown;
+}
+.clear {
+    clear:both;
+}
+
+.img{
+    width: 100%;
+}
+h1{
+    color:black;
+    position: absolute;
+    float:right;
+    border-top-style: double;
+    border-top-color: tan;
+    border-width: 35px;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+h3 {
+    font-size:50px;
+    text-align: center;
+    text-transform: capitalize;
+    float: left;
+
+} 
+h4{
+    font-size:50px;
+    text-align: center;
+    text-transform: capitalize;
+    float: left;
+}
+
+.imgboxleft {
+    max-width:400px;
+    float:left;
+    padding:20px;
+}
+
+.Description {
+    margin-top: 0px;
+    line-height: 150%;
+    border-top-style: double;
+    border-top-color:saddlebrown;
+    border-top-width: 35px;
+}
+
+.Taxonmy {
+    margin-top: 0px;
+    line-height: 150%;
+    border-top-style: double;
+    border-top-color: sandybrown;
+    border-width: 35px;
+    
+}
+
+.Ecology {
+    margin-top: 0px;
+    line-height: 150%;
+    border-top-style: double;
+    border-top-color: tan;
+    border-width: 35px;
+}
+
+.Biology {
+    margin-top: 0px;
+    line-height: 150%;
+    border-top-style: double;
+    border-top-color: saddlebrown;
+    border-width: 35px;
+}
+
+.Behavior {
+    margin-top: 0px;
+    line-height: 150%;
+    border-top-style: double;
+    border-top-color: sandybrown;
+    border-width: 35px;
+}
+
+.Relationships{
+    margin-top: 0px;
+    line-height: 150%;
+    border-top-style: double;
+    border-top-color: tan;
+    border-width: 35px;
+}
+figcaption {
+    display: block;
+    text-align: center;
+}
